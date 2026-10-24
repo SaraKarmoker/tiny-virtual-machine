@@ -106,18 +106,25 @@ The VM shows a clear message for:
 - Unknown instruction
 - Undefined variable
 - Missing label
+## Screenshots
 
-Screenshots
-Addition Program
-Addition Output
-Loop Program
-Loop Output
-Factorial Program
-Factorial Output
-Trace Mode (Addition Program)
-Trace Start
-Trace End
+### Addition Program
 
+![Addition Output](screenshots/addition_output.png)
+
+### Loop Program
+
+![Loop Output](screenshots/loop_output.png)
+
+### Factorial Program
+
+![Factorial Output](screenshots/factorial_output.png)
+
+### Trace Mode (Addition Program)
+
+![Trace Start](screenshots/trace_start.png)
+
+![Trace End](screenshots/trace_end.png)
 ## Author
 
 Susmita Karmoker Saraboni
