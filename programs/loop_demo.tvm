@@ -1,0 +1,33 @@
+# Program: Sum numbers from 1 to 5
+# Expected output: 15
+
+LOADI 1
+STORE i
+
+LOADI 0
+STORE sum
+
+LOOP:
+LOAD i
+LOADI 5
+GT
+JZ BODY
+JMP END
+
+BODY:
+LOAD sum
+LOAD i
+ADD
+STORE sum
+
+LOAD i
+LOADI 1
+ADD
+STORE i
+
+JMP LOOP
+
+END:
+LOAD sum
+PRINT
+HALT

@@ -1,0 +1,8 @@
+# Program: Add two numbers
+# Expected output: 30
+
+LOADI 10
+LOADI 20
+ADD
+PRINT
+HALT

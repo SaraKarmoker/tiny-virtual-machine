@@ -1,0 +1,31 @@
+# Program: Factorial of 5
+# Expected output: 120
+
+LOADI 5
+STORE n
+
+LOADI 1
+STORE fact
+
+LOOP:
+LOAD n
+LOADI 1
+GT
+JZ END
+
+LOAD fact
+LOAD n
+MUL
+STORE fact
+
+LOAD n
+LOADI 1
+SUB
+STORE n
+
+JMP LOOP
+
+END:
+LOAD fact
+PRINT
+HALT
